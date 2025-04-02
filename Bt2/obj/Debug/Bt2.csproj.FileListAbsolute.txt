@@ -1,0 +1,10 @@
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\obj\Debug\Bt2.csproj.AssemblyReference.cache
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\obj\Debug\Bt2.Properties.Resources.resources
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\obj\Debug\Bt2.csproj.GenerateResource.cache
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\obj\Debug\Bt2.csproj.CoreCompileInputs.cache
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\bin\Debug\Bt2.exe.config
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\bin\Debug\Bt2.exe
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\bin\Debug\Bt2.pdb
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\obj\Debug\BT2_ImageViewer.ImageViewerForm.resources
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\obj\Debug\Bt2.exe
+C:\Users\baole\Desktop\Lập trình desktop\Bt2\Bt2\obj\Debug\Bt2.pdb
