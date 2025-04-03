@@ -28,43 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.loadFolderButton = new System.Windows.Forms.Button();
-            this.imageFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.imagePictureBox = new System.Windows.Forms.PictureBox();
+            this.btnLoadFolder = new System.Windows.Forms.Button();
+            this.imgFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.imgPictureBox = new System.Windows.Forms.PictureBox();
             this.pathLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.imagePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // loadFolderButton
+            // btnLoadFolder
             // 
-            this.loadFolderButton.Location = new System.Drawing.Point(9, 26);
-            this.loadFolderButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.loadFolderButton.Name = "loadFolderButton";
-            this.loadFolderButton.Size = new System.Drawing.Size(130, 35);
-            this.loadFolderButton.TabIndex = 0;
-            this.loadFolderButton.Text = "&Load Folder";
-            this.loadFolderButton.UseVisualStyleBackColor = true;
-            this.loadFolderButton.Click += new System.EventHandler(this.LoadFolderButton_Click);
+            this.btnLoadFolder.Location = new System.Drawing.Point(9, 26);
+            this.btnLoadFolder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLoadFolder.Name = "btnLoadFolder";
+            this.btnLoadFolder.Size = new System.Drawing.Size(130, 35);
+            this.btnLoadFolder.TabIndex = 0;
+            this.btnLoadFolder.Text = "&Load Folder";
+            this.btnLoadFolder.UseVisualStyleBackColor = true;
+            this.btnLoadFolder.Click += new System.EventHandler(this.LoadFolderButton_Click);
             // 
-            // imageFlowLayoutPanel
+            // imgFlowLayoutPanel
             // 
-            this.imageFlowLayoutPanel.Location = new System.Drawing.Point(4, 348);
-            this.imageFlowLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.imageFlowLayoutPanel.Name = "imageFlowLayoutPanel";
-            this.imageFlowLayoutPanel.Size = new System.Drawing.Size(764, 130);
-            this.imageFlowLayoutPanel.TabIndex = 1;
-            this.imageFlowLayoutPanel.WrapContents = false;
+            this.imgFlowLayoutPanel.Location = new System.Drawing.Point(4, 348);
+            this.imgFlowLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.imgFlowLayoutPanel.Name = "imgFlowLayoutPanel";
+            this.imgFlowLayoutPanel.Size = new System.Drawing.Size(764, 130);
+            this.imgFlowLayoutPanel.TabIndex = 1;
+            this.imgFlowLayoutPanel.WrapContents = false;
             // 
-            // imagePictureBox
+            // imgPictureBox
             // 
-            this.imagePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.imagePictureBox.Location = new System.Drawing.Point(0, 88);
-            this.imagePictureBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.imagePictureBox.Name = "imagePictureBox";
-            this.imagePictureBox.Size = new System.Drawing.Size(899, 254);
-            this.imagePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagePictureBox.TabIndex = 2;
-            this.imagePictureBox.TabStop = false;
+            this.imgPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgPictureBox.Location = new System.Drawing.Point(0, 88);
+            this.imgPictureBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.imgPictureBox.Name = "imgPictureBox";
+            this.imgPictureBox.Size = new System.Drawing.Size(899, 254);
+            this.imgPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgPictureBox.TabIndex = 2;
+            this.imgPictureBox.TabStop = false;
             // 
             // pathLabel
             // 
@@ -81,13 +81,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.pathLabel);
-            this.Controls.Add(this.imagePictureBox);
-            this.Controls.Add(this.imageFlowLayoutPanel);
-            this.Controls.Add(this.loadFolderButton);
+            this.Controls.Add(this.imgPictureBox);
+            this.Controls.Add(this.imgFlowLayoutPanel);
+            this.Controls.Add(this.btnLoadFolder);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ImageViewerForm";
             this.Text = "Image Viewer";
-            ((System.ComponentModel.ISupportInitialize)(this.imagePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,9 +95,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button loadFolderButton;
-        private System.Windows.Forms.FlowLayoutPanel imageFlowLayoutPanel;
-        private System.Windows.Forms.PictureBox imagePictureBox;
+        private System.Windows.Forms.Button btnLoadFolder;
+        private System.Windows.Forms.FlowLayoutPanel imgFlowLayoutPanel;
+        private System.Windows.Forms.PictureBox imgPictureBox;
         private System.Windows.Forms.Label pathLabel;
     }
 }

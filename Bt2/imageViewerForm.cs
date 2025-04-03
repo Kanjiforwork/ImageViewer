@@ -28,12 +28,12 @@ namespace BT2
                                       .Where(file => file.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
                                                      file.EndsWith(".png", StringComparison.OrdinalIgnoreCase));
 
-            imageFlowLayoutPanel.Controls.Clear();
+            imgFlowLayoutPanel.Controls.Clear();
 
             foreach (var file in imageFiles)
             {
                 var pictureBox = CreatePictureBox(file);
-                imageFlowLayoutPanel.Controls.Add(pictureBox);
+                imgFlowLayoutPanel.Controls.Add(pictureBox);
             }
         }
 
@@ -44,7 +44,7 @@ namespace BT2
                 Cursor = Cursors.Hand,
                 SizeMode = PictureBoxSizeMode.StretchImage,
                 Width = 150,
-                Height = 100,
+                Height = 90,
                 Tag = imagePath
             };
 
@@ -58,8 +58,8 @@ namespace BT2
         {
             if (sender is PictureBox pictureBox && pictureBox.Tag is string imgPath)
             {
-                imagePictureBox.Load(imgPath);
-                imagePictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                imgPictureBox.Load(imgPath);
+                imgPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                 pathLabel.Text = $"File: {imgPath} is loaded.";
             }
         }
